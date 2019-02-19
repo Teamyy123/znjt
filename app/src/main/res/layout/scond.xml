@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Scond">
+
+    <include layout="@layout/biaoti"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="排序："
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:entries="@array/spinner2" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:onClick="chaxun2"
+                android:text="查询"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#080808" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#080808" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="路口"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#080808" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="红灯时长(S)"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#080808" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="黄灯时长(S)"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#080808" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="绿灯时长(S)"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#080808" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#080808" />
+        <ListView
+            android:id="@+id/id_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

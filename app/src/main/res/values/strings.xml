@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ZNJT</string>
+    <string-array name="spinner">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="spinner2">
+        <item>路口升序</item>
+        <item>路口降序</item>
+        <item>红灯升序</item>
+        <item>红灯降序</item>
+        <item>绿灯升序</item>
+        <item>绿灯降序</item>
+        <item>黄灯升序</item>
+        <item>黄灯降序</item>
+    </string-array>
+
+    <string-array name="spinner3">
+        <item>时间升序</item>
+        <item>时间降序</item>
+        <item>余额升序</item>
+        <item>余额降序</item>
+    </string-array>
+</resources>

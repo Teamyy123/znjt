@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/f4_a1"
+>
+
+    <TableRow
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/inmage_a1"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <ImageView
+            android:id="@+id/inmage_a2"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+
+            />
+        <ImageView
+            android:id="@+id/inmage_a3"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+
+            />
+        <ImageView
+            android:id="@+id/inmage_a4"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+
+            />
+
+    </TableRow>
+    <TableRow
+
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="视频名称"
+            android:gravity="center"
+            android:textSize="24dp"
+
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="100dp"
+            android:text="视频名称"
+            android:gravity="center"
+            android:textSize="24dp"
+
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="视频名称"
+            android:paddingLeft="100dp"
+            android:gravity="center"
+            android:textSize="24dp"
+
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="100dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="视频名称"
+            android:textSize="24dp"
+
+            />
+
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/inmage_a5"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <ImageView
+
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+
+            />
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+
+            />
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+
+            />
+
+
+    </TableRow>
+    <TableRow
+
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="视频名称"
+            android:gravity="center"
+            android:textSize="24dp"
+
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="40dp"
+
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="40dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+
+            android:textSize="40dp"
+
+            />
+    </TableRow>
+
+</TableLayout>

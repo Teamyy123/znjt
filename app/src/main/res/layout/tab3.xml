@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#080808" />
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#080808" />
+
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="26sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#080808" />
+
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="26sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#080808" />
+
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="26sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#080808" />
+
+    <TextView
+        android:id="@+id/a5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="26sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#080808" />
+
+    <TextView
+        android:id="@+id/a6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="26sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#080808" />
+
+</LinearLayout>

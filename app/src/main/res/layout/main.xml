@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#238edf">
+        <ImageView
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:paddingRight="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/c2"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginLeft="150dp"
+            android:layout_toLeftOf="@id/text"
+            android:textSize="34sp"
+            />
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网络设置"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            />
+
+
+
+</LinearLayout>

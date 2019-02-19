@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/f4_b1"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TableRow
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/inmage_b1"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <ImageView
+            android:id="@+id/inmage_b2"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+
+            />
+        <ImageView
+            android:id="@+id/inmage_b3"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+
+            />
+        <ImageView
+            android:id="@+id/inmage_b4"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+
+            />
+
+    </TableRow>
+
+</TableLayout>
